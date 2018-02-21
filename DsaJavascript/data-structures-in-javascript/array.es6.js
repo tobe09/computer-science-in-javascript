@@ -13,7 +13,7 @@ class MyArray {
 
   search(data) {
     const foundIndex = this.array.indexOf(data);
-    if(~foundIndex) {
+    if(~foundIndex) {       //¬ handles zero by negating to -1 (2's compliment). Can use: foundIndex || foundIndex === 0
       return foundIndex;
     }
 

@@ -30,11 +30,61 @@
     <DebugSymbols>true</DebugSymbols>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="data-structures-in-javascript\array.es6.js" />
+    <Compile Include="data-structures-in-javascript\array.js" />
+    <Compile Include="data-structures-in-javascript\binary-search-tree.es6.js" />
+    <Compile Include="data-structures-in-javascript\binary-search-tree.js" />
+    <Compile Include="data-structures-in-javascript\doubly-linked-list.es6.js" />
+    <Compile Include="data-structures-in-javascript\doubly-linked-list.js" />
+    <Compile Include="data-structures-in-javascript\graph.es6.js" />
+    <Compile Include="data-structures-in-javascript\graph.js" />
+    <Compile Include="data-structures-in-javascript\hash-table.es6.js" />
+    <Compile Include="data-structures-in-javascript\hash-table.js" />
+    <Compile Include="data-structures-in-javascript\queue.es6.js" />
+    <Compile Include="data-structures-in-javascript\queue.js" />
+    <Compile Include="data-structures-in-javascript\set.es6.js" />
+    <Compile Include="data-structures-in-javascript\set.js" />
+    <Compile Include="data-structures-in-javascript\singly-linked-list.es6.js" />
+    <Compile Include="data-structures-in-javascript\singly-linked-list.js" />
+    <Compile Include="data-structures-in-javascript\stack.es6.js" />
+    <Compile Include="data-structures-in-javascript\stack.js" />
+    <Compile Include="data-structures-in-javascript\tree.es6.js" />
+    <Compile Include="data-structures-in-javascript\tree.js" />
+    <Compile Include="data-structures-in-javascript\trie.es6.js" />
+    <Compile Include="data-structures-in-javascript\trie.js" />
     <Compile Include="server.js" />
+    <Compile Include="sorting-algorithms-in-javascript\bubble-sort-counters.es6.js" />
+    <Compile Include="sorting-algorithms-in-javascript\bubble-sort-counters.js" />
+    <Compile Include="sorting-algorithms-in-javascript\bubble-sort.es6.js" />
+    <Compile Include="sorting-algorithms-in-javascript\bubble-sort.js" />
+    <Compile Include="sorting-algorithms-in-javascript\insertion-sort-counters.es6.js" />
+    <Compile Include="sorting-algorithms-in-javascript\insertion-sort-counters.js" />
+    <Compile Include="sorting-algorithms-in-javascript\insertion-sort.es6.js" />
+    <Compile Include="sorting-algorithms-in-javascript\insertion-sort.js" />
+    <Compile Include="sorting-algorithms-in-javascript\merge-sort-counters.es6.js" />
+    <Compile Include="sorting-algorithms-in-javascript\merge-sort-counters.js" />
+    <Compile Include="sorting-algorithms-in-javascript\merge-sort.es6.js" />
+    <Compile Include="sorting-algorithms-in-javascript\merge-sort.js" />
+    <Compile Include="sorting-algorithms-in-javascript\quicksort-counters.es6.js" />
+    <Compile Include="sorting-algorithms-in-javascript\quicksort-counters.js" />
+    <Compile Include="sorting-algorithms-in-javascript\quicksort.es6.js" />
+    <Compile Include="sorting-algorithms-in-javascript\quicksort.js" />
+    <Compile Include="sorting-algorithms-in-javascript\selection-sort-counters.es6.js" />
+    <Compile Include="sorting-algorithms-in-javascript\selection-sort-counters.js" />
+    <Compile Include="sorting-algorithms-in-javascript\selection-sort.es6.js" />
+    <Compile Include="sorting-algorithms-in-javascript\selection-sort.js" />
+    <Compile Include="sorting-algorithms-in-javascript\shellsort-counters.es6.js" />
+    <Compile Include="sorting-algorithms-in-javascript\shellsort-counters.js" />
+    <Compile Include="sorting-algorithms-in-javascript\shellsort.es6.js" />
+    <Compile Include="sorting-algorithms-in-javascript\shellsort.js" />
+    <Content Include="data-structures-in-javascript\README.md" />
     <Content Include="package.json" />
     <Content Include="README.md" />
+    <Content Include="sorting-algorithms-in-javascript\README.md" />
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="data-structures-in-javascript\" />
+    <Folder Include="sorting-algorithms-in-javascript\" />
     <Folder Include="typings\" />
     <Folder Include="typings\globals\" />
     <Folder Include="typings\globals\node\" />

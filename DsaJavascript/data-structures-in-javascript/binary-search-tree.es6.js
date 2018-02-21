@@ -13,7 +13,8 @@ class BinarySearchTree {
     const node = new Node(data);
     if(!this.root) {
       this.root = node;
-    } else {
+    }
+    else {
       let current = this.root;
       while(current) {
         if(node.data < current.data) {
@@ -22,13 +23,15 @@ class BinarySearchTree {
             break;
           }
           current = current.left;
-        } else if (node.data > current.data) {
+        }
+        else if (node.data > current.data) {
           if(!current.right) {
             current.right = node;
             break;
           }
           current = current.right;
-        } else {
+        }
+        else {          //no duplicates
           break;
         }
       }
@@ -56,10 +59,12 @@ class BinarySearchTree {
         node.data = temp;
         node.right = removeNode(node.right, temp);
         return node;
-      } else if(data < node.data) {
+      }
+      else if (data < node.data) {
         node.left = removeNode(node.left, data);
         return node;
-      } else {
+      }
+      else {
         node.right = removeNode(node.right, data);
         return node;
       }
@@ -229,7 +234,8 @@ class BinarySearchTree {
     const diff = Math.abs(heigthLeft - heigthRight);
     if(diff > 1) {
       return false;
-    } else {
+    }
+    else {
       return this._isBalanced(node.left) && this._isBalanced(node.right);
     }
   }
